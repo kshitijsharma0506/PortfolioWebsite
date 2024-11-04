@@ -14,18 +14,21 @@ const Footer = () => {
                         <a href="#skills" className="footer__link">Skills</a>
                     </li>
                     <li>
+                        <a href="#portfolio" className="footer__link">Portfolio</a>
+                    </li>
+                    <li>
                         <a href="#contact" className="footer__link">Contact</a>
                     </li>
                 </ul>
 
                 <div className="footer__social">
-                    <a href="" target='_blank' className="home__social-icon">
+                    <a href="#" className="home__social-icon">
                         <i className="bx bxl-instagram"></i>
                     </a>
-                    <a href="" target='_blank' className="home__social-icon">
+                    <a href="https://github.com/kshitijsharma0506" target='_blank' className="home__social-icon">
                         <i className="bx bxl-github"></i>
                     </a>
-                    <a href="" target='_blank' className="home__social-icon">
+                    <a href="https://www.linkedin.com/in/kshitij56" target='_blank' className="home__social-icon">
                         <i className="bx bxl-linkedin"></i>
                     </a>
                 </div>

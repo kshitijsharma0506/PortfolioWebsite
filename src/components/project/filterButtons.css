@@ -10,18 +10,18 @@
     border: none;
     border-radius: 9999px;
     background: none;
-    color: #666;
+    color: var(--title-color);
     cursor: pointer;
     transition: all 0.3s ease;
   }
   
   .filter-button:hover {
-    background-color: #f5f5f5;
+    background-color: #f5f5f577;
   }
   
   .filter-button.active {
     background-color: var(--title-color); 
-    color: white;
+    color:var(--body-color);
   }
   
   @media (max-width: 576px) {

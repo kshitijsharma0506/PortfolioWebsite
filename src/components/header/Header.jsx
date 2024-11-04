@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+import { ThemeToggle } from "../themeToggle/ThemeToggle";
 
 const Header = () => {
   window.addEventListener("scroll", function () {
@@ -53,6 +54,9 @@ const Header = () => {
               <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav__icon"></i> Contact
               </a>
+            </li>
+            <li className="nav__item">
+                <ThemeToggle />
             </li>
           </ul>
           <i className="uil uil-times nav__close" onClick={handleToggleMenu}></i>
