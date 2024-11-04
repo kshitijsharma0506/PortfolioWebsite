@@ -1,7 +1,5 @@
 import React from 'react';
 import ScrollIcon from '../../assets/ScrollIcon.jsx';
-import './home.css';
-
 
 const ScrollDown = () => {
   return (
