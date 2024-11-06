@@ -8,17 +8,19 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_wrtk9ky', 'template_64svjrp', form.current, {
-            publicKey: 'KrcS3-N6-Xu9fAJJj',
-        })
-            .then(
-                () => {
-                    console.log('SUCCESS!');
-                },
-                (error) => {
-                    console.log('FAILED...', error.text);
-                },
-            );
+        emailjs.sendForm(
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+            form.current,
+            { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
+        ).then(
+            () => {
+                console.log('SUCCESS!');
+            },
+            (error) => {
+                console.log('FAILED...', error.text);
+            },
+        );
         e.target.reset();
     };
 
