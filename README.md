@@ -1,6 +1,6 @@
 # Modern Portfolio Website
 
-![Portfolio Preview]()
+![Portfolio Preview](https://github.com/user-attachments/assets/2ff613d6-4e13-430a-9ecd-314f460502ae)
 
 A modern, responsive portfolio website built with React and Vite, featuring a clean design, smooth animations, and interactive components.
 
@@ -102,11 +102,7 @@ npm run preview
 
 ## 📱 Responsive Design
 
-The portfolio is fully responsive with breakpoints at:
-- Mobile: 320px - 480px
-- Tablet: 481px - 768px
-- Desktop: 769px+
-
+The portfolio is fully responsive with breakpoints.
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -115,14 +111,6 @@ The portfolio is fully responsive with breakpoints at:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Support
 
-For support, email your.email@example.com or open an issue in the repository.
-
----
-
-Made with ❤️ by [Your Name]
+For support, email kshitijsharma5620@gmail.com or open an issue in the repository.
