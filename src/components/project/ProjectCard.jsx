@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
       </div>
       <div className="project-content">
         <h3>{project.title}</h3>
-        <a href={project.demoLink} className="demo-link">
+        <a href={project.demoLink} target='_blank' className="demo-link">
           Demo <ArrowRight className="arrow-icon" />
         </a>
       </div>

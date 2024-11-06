@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Code brackets logo">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#646cff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5058cc;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .bracket {
+        stroke: white;
+        stroke-width: 40;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+        transform-origin: center;
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .bracket {
+          animation: float 3s ease-in-out infinite;
+        }
+        .bracket-right {
+          animation-delay: 0.5s;
+        }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+    </style>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" fill="url(#bgGradient)" rx="80">
+    <animate attributeName="rx" values="80;90;80" dur="4s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Code brackets with smooth animation -->
+  <path class="bracket" d="M 160 180 L 220 256 L 160 332">
+    <title>Opening bracket</title>
+  </path>
+  <path class="bracket bracket-right" d="M 352 180 L 292 256 L 352 332">
+    <title>Closing bracket</title>
+  </path>
+  
+  <!-- Subtle background pattern -->
+  <path d="M256 120 L256 392" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+  <path d="M120 256 L392 256" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+</svg>
